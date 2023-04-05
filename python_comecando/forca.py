@@ -3,7 +3,13 @@ def jogo_forca():
     print("Jogo da Forca")
     print("*" * 17)
 
-    print("Fim do jogo")
+    palavra_secreta = "banana"
+
+    enforcou = False
+    acertou = False
+
+    while not enforcou and not acertou:
+        print("Jogando...")
 
 
 if __name__ == "__main__":
